@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.mlbtv_autoplay" name="MLB.TV® Autoplay" version="0.0.1" provider-name="thromer">
+    <requires>
+        <import addon="plug.video.mlbtv" version="2024.3.30"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Autoplay favorite MLB.TV® stream if available
+        </summary>
+        <description lang="en_GB">Autoplay favorite MLB.TV® stream if available
+        </description>
+        <platform>all</platform>
+        <source>https://github.com/thromer/script.module.mlbtv_autoplay</source>
+    </extension>
+</addon>
